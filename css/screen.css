@@ -1,0 +1,157 @@
+@CHARSET "UTF-8";
+
+a{
+	text-decoration:none;
+	color:#00F;
+}
+
+pre{
+	font-size:1em;
+	font-family: "Lato", "freight-sans-pro","Myriad Pro","Myriad",sans-serif;	
+}
+
+body{
+	padding:0px;
+	margin:0px;
+	background:#dbdbdd;
+	font-family: "Lato", "freight-sans-pro","Myriad Pro","Myriad",sans-serif;
+	font:inherent;
+}
+#banner{
+	width:100%;
+	margin:auto;
+	padding:0px;
+	background:#909b19;
+	height:120px;
+	text-align:center;
+	padding-top:30px;
+	color:#FFF;
+	font-size:200%;
+}
+#main{
+	width:1000px;
+	height:auto;
+	min-height:500px;
+	background:url( ../images/bk.png ) #FFF;
+	background-repeat:repeat-y;
+	margin:auto;
+	margin-top:-60px;
+	padding:10px;
+	border-radius:10px;
+}
+#dblist{
+	width:180px;
+	height:auto;
+	min-height:500px;
+	padding:0 10px;
+	float:left;
+}
+#dblist ul{
+	padding:0px;
+	margin:0px;
+	border-bottom:1px solid #CCC;
+	list-style:none;
+	padding:5px;
+}
+#dblist ul li{
+	padding:0px;
+	margin:5px 0;
+}
+#content{
+	width:770px;
+	padding:5px 10px;
+	height:auto;
+	min-height:500px;
+	float:right;
+	overflow:hidden;
+}
+#dblist .dbtable{
+	border:0px;
+	padding:0px;
+	padding-left:20px;
+}
+#footer{
+	text-align:center;
+	color:#666;
+	width:100%;
+	margin-top:10px;
+	font-size:90%;
+	height:30px;
+}
+.selectedItem{
+	font-weight:bold;
+}
+.subfunc{
+	margin:0 0 10px 0 ;
+}
+.subfunc a{
+	border-right:1px solid #999;
+	padding:0px 10px;
+}
+
+
+table{
+	border:1px solid #000;
+	border-spacing:inherit;	
+	width:95%;
+	margin:auto;
+}
+
+table tr th{
+	padding:10px;
+	background:#ffc75c;
+	color:#000;
+}
+
+table tr {
+	
+}
+
+table tr:hover{
+	background:#FFC;
+}
+
+table tr td{
+	padding:5px;
+}
+
+
+.dbahref{
+	color:#ff00ea;
+}
+
+.waringInfo{
+	width:95%;
+	text-align:center;
+	margin:0 auto 10px auto;
+	color:#F00;
+	line-height:35px;
+	font-size:110%;
+}
+
+#excInfo{
+	width:95%;
+	text-align:center;
+	margin:0 auto 15px auto;
+	c/olor:#ff7800;
+	background:#FF7800;
+	color:#FFF;
+	line-height:35px;
+	font-size:110%;
+}
+
+.page_link{
+	width:98%;
+	margin:-5px auto 15px auto;
+}
+
+.page_link a{
+	margin:-5px auto 10px auto;
+	border-right:1px solid #999;
+	padding:0px 15px;
+}
+
+.subfunc select{
+	padding:0;
+	margin:0px;
+}
